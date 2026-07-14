@@ -23,7 +23,7 @@ public:
             int j = i;
             while(s[j]!='#') j++; //incrementing the j pointer to the character
 
-            int length = stoi(s.substr(i,j-i));//using the number before hastag for length clever!!
+            int length = stoi(s.substr(i,j-i));//using the number before hastag for length 
             i = j+1; //updating the i pointer
             j = i+length;
 
